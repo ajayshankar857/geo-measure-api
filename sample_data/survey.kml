@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Plot A</name>
+      <description>Small test parcel (~0.12 ha)</description>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        78.080,10.950,0 78.081,10.950,0 78.081,10.951,0 78.080,10.951,0 78.080,10.950,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Road 1</name>
+      <LineString><coordinates>78.080,10.950,0 78.080,10.960,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Well</name>
+      <Point><coordinates>78.0805,10.9505,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mixed</name>
+      <MultiGeometry>
+        <Point><coordinates>78.09,10.95,0</coordinates></Point>
+        <LineString><coordinates>78.09,10.95,0 78.091,10.95,0</coordinates></LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Document>
+</kml>
